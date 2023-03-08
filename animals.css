@@ -1,0 +1,69 @@
+body{
+  background-image: url('https://cdn.discordapp.com/attachments/931113875959599114/1083007498082078821/white-background-with-wavy-lines-copy-space_23-2148822145.png');
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+}
+.item img{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+.pfp{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px #000 solid;
+  width: 90%;
+  /* margin-left: 70px; */
+  margin: 50px 0px 50px 70px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 14px;
+}
+.item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.item img{
+  margin: 5px 30px ;
+}
+
+.health{
+  background-color: green;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+
+}
+.health h3{
+  color: #fff;
+  text-align: center;
+  margin-top:20px;
+}
+
+.red{
+  background-color: red;
+}
+.orange{
+  background-color: orange;
+}
+
+.list-items{
+ width: 100%;
+ padding: 10px;
+}
+.pfp a{
+  text-decoration: none;
+}
